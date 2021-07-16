@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'App Banco',
-      initialRoute: 'details',
+      initialRoute: 'logo',
       routes: getAppliactionRoutes(),
     );
   }

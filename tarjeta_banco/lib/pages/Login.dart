@@ -172,7 +172,7 @@ class _OlvideContrasena extends StatelessWidget {
     return Align(
       alignment: Alignment.center,
       child: TextButton(
-          onPressed: () => Navigator.pushNamed(context, 'logo'),
+          onPressed: () => Navigator.pushNamed(context, 'details'),
           child: Text(
             'Olvide mi contraseña',
             style: TextStyle(
